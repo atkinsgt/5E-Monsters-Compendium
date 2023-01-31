@@ -1,0 +1,54 @@
+{
+  "id": "5e-monsters-compendium",
+  "name": "5e-monsters-compendium",
+  "title": "5E Monsters Compendium",
+  "description": "A compendium of all 5e monsters.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Gharreth Adekyn",
+  "authors": [
+    {
+      "name": "Gharreth Adekyn",
+      "discord": "GharrethAdekyn#1121"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "5E Monsters Compendium",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}

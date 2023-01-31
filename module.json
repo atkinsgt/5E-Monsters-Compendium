@@ -48,7 +48,7 @@
     ]
   },
   "url": "https://github.com/atkinsgt/5E-Monsters-Compendium/",
-  "manifest": "https://github.com/atkinsgt/5E-Monsters-Compendium/main/module.json",
+  "manifest": "https://github.com/atkinsgt/5E-Monsters-Compendium/blob/main/module.json",
   "download": "",
   "manifestPlusVersion": "1.2.0"
 }
